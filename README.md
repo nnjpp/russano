@@ -15,7 +15,6 @@ npm install --save-dev timestamp-webpack-plugin
 
 ```js
 // Add to your Webpack config file
-var path = require("path");
 var TimestampWebpackPlugin = require('timestamp-webpack-plugin');
 
 module.exports = {
