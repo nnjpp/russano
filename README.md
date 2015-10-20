@@ -29,4 +29,6 @@ module.exports = {
 ## Output
 
 This fork outputs the number of **milliseconds** that have elapsed since January 1, 1970 at 00:00:00 GMT 
-
+```
+{"timestamp":1445366660272}
+```
