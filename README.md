@@ -19,7 +19,10 @@ var path = require("path");
 var TimestampWebpackPlugin = require('timestamp-webpack-plugin');
 
 module.exports = {
-  plugins: [new TimestampWebpackPlugin()]
+  plugins: [new TimestampWebpackPlugin({
+    path: '/my/path',
+    filename: 'timestamp.json'
+  })]
 };  
 ```
 
